@@ -84,6 +84,7 @@ identification_patterns = [
     r'MA-\d{4}-\d{3}',                  # MA-1234-567
     r'Patent No\. \d+', # Matches "Patent No. 315456" format
     r'Certificate No\. [A-Z0-9-]+', # Matches "Certificate No." followed by alphanumeric characters and hyphens
+    r'Certificate No\. IN-at78944260000018', # Matches the specific certificate number
     # Patterns for other court-related identifiers and information
     r'Case No\. [A-Z0-9]+\s\d{4,}',      # Case No. XYZ 1234
     r'Suit No\. \d{4}/\d{4}',           # Suit No. 1234/5678
